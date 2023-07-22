@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'SuperFoods';
+    src: url('super_foods-webfont.woff2') format('woff2'),
+         url('super_foods-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+h1 {
+    font-family: 'SuperFoods', Helvetica, sans-serif;
+    font-size: 80px;
+  }
+
+
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #242222;
+}
+
+body{
+    font-size: 30px;
+    font-family:  Helvetica;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+ul{
+    all: unset;
+    width: 95%;
+    margin-top: 20px;
+}
+
+button{
+    all: unset;
+    height: 100%;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    background: #FA3B3D;
+    color: #942224;
+    text-align: center;
+    min-width: 60px;
+    max-width: 65px;
+    cursor: pointer;
+}
+
+span {
+    width: 100%;
+    text-align: start;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+input::placeholder {
+    opacity: 0.5;
+    color: #96918e;
+}
+
+
+.outermost-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.content-container{
+    /* outline: solid #121110; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1%;
+    max-width: 450px;
+    width: 60%;
+    height: 80%;
+    box-shadow: 0px 0px 10px black;
+    background: #383635;
+}
+
+.input-continer{
+    display: flex;
+    height: 50px;
+    width: 85%;
+}
+
+.text-box{
+    all:unset;
+    width: 100%;
+    margin: 0;
+    background: #2b2928;
+    padding: 10px;
+    text-align: center;
+}
+
+.list-item{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.list-item-container{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background: #494644;
+    box-shadow: 0px 0px 2px black;
+}
+
+.add-button {
+    background-color: #4DFFAC;
+    color: #018A51;
+    text-align: center;
+    box-shadow: 0px 0px 2px black;
+}
